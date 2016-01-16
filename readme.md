@@ -1,6 +1,6 @@
-## Challenge Specification v0.1
+## Challenge Spec 0.1.0
 
-Challenges have a standard header that ensures runtime compatiblity. The header format has a version number and a special token that identifies it as a challenge.
+Challenges have a standard header that ensures runtime compatiblity:
 
 header format:
 
@@ -8,16 +8,14 @@ header format:
 		"sessions": "0.1.0"
 	}
 
-The next layer of a challenge identifies a name and description. This is useful when a challenge is inside a repository and needs to be found in some way. It also helps the author summarize the challenge in plain english.
-
-It is recommended to use your own company, blog or personal name in the title to help people locate your challenge and connect it back to your brand.
+The next layer defines a name and description. This should describe the specifics of the challenge in plain english so people can read & understand the requirements.
 
 	{
 		"name": "Fitstar 30 day challenge",
 		"summary": "perform 20 sessions in 30 days"
 	}
-
-The next layer defines an array of sequeuntial segments that make up the challenge:
+	
+The segments array defines the challenge itself:
 
 	{
 		"segments": [
@@ -36,12 +34,14 @@ The next layer defines an array of sequeuntial segments that make up the challen
 		]
 	}
 
-In this example, running and cycling count, but walking doens't. Also, if the session does not last for at least 15 minutes, the session will not count towards the goal. The "Before" and "After" messages will get sent to the user hwen they accept the challenge and once they complete it. It will use the profile picture and username associated with the account specified by "account". The runtime might cache this data, but it should strive to use the most updated data when the message is fired.
+This example is a single segment. Multiple segments would need to satisfied linearly in order to compelte the challenge. The segment says the person needs to run or walk for more than 25 minutes at least 20 times within a 3 day window.
 
-This could be stored in a database system or on disk. The runtime decides how to manage challenges.
-The sessions mobile runtime (SMRT) can load challenges in raw 'application/json' format from any http endpoint.
+### Loading 
+
+The sessions mobile run-time (SMRT) is capable of loading challenges straight from http endpoints. The Sessions mobile apps for iOS and Android will automatically load challenges when tapping on "https://sessions.io/s/*" links from any app or website.
 
 ### Example Challenges
 
 [Couch to 5k](https://sessions.io/s/c25k)
+
 [365 miles in 365 days](https://sessions.io/s/365in365)
