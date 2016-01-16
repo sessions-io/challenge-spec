@@ -1,0 +1,17 @@
+{
+  "sessions":  "0.1.0",
+  "name":  "Zuckerberg's 365 in 365",
+  "summary":  "This challenge was first proposed by Mark Zuckerberg to his Facebook followers. Run for 365 miles in 365 days. Simple right?",
+  "segments": [
+    {
+      "type": "miles",
+      "count": 365,
+      "days": 365,
+      "filter": {
+        "types": [
+          "run"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "sessions":  "0.1.0",
+  "name": "The couch to 5k running plan",
+  "summary": "Start your 5k training with just a few minutes each week. Each session should take about 20 or 30 minutes, three times a week. That just happens to be the same amount of moderate exercise recommended by numerous studies for optimum fitness. This program will get you fit.",
+  "segments": [
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    },
+    {
+      "type": "sessions",
+      "count": 3,
+      "days": 7,
+      "filter": {
+        "types": [
+          "run" ,
+          "walk"
+        ],
+        "minutes": 25
+      }
+    }
+  ]
+}
