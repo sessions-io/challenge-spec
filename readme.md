@@ -34,7 +34,7 @@ The segments array defines the challenge itself:
 		]
 	}
 
-This example is a single segment. Multiple segments would need to satisfied linearly in order to compelte the challenge. The segment says the person needs to run or walk for more than 25 minutes at least 20 times within a 3 day window.
+This example is a single segment. Multiple segments would need to satisfied linearly in order to compelte the challenge. If a segment needs to be restarted, the whole challenge is restarted. The segment says the person needs to run or walk for more than 25 minutes at least 20 times within a 3 day window.
 
 ### Loading 
 
