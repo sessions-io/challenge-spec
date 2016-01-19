@@ -38,7 +38,8 @@ This example is a single segment. Multiple segments would need to satisfied line
 
 ### Loading 
 
-The sessions mobile run-time (SMRT) is capable of loading challenges straight from http endpoints. The Sessions mobile apps for iOS and Android will automatically load challenges when tapping on "https://sessions.io/s/*" links from any app or website.
+The open source apps for [iOS](https://github.com/sessions-io/smrt-ios) and [Android](https://github.com/sessions-io/smrt-android) can fetch and load challenges from any URL.
+Challenges should be available on http(s) endpoints with content-type "application/json".
 
 ### Example Challenges
 
