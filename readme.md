@@ -1,5 +1,7 @@
 ## Challenge Spec 0.1.0
 
+Challenges are specified in the following JSON format which describes a device/vendor/platform independent set of constraints that a person must meet in order to qualify as "complete". Our open source [Android](https://github.com/sessions-io/smrt-android) and [iOS](https://github.com/sessions-io/smrt-ios) apps load challenges in this format and track completion automatically by connecting with wearable fitness devices.
+
 Challenges have a standard header that ensures runtime compatiblity:
 
 header format:
@@ -8,7 +10,7 @@ header format:
 		"sessions": "0.1.0"
 	}
 
-The next layer defines a name and description. This should describe the specifics of the challenge in plain english so people can read & understand the requirements.
+Next, the challenge has a name, and a summary in words:
 
 	{
 		"name": "Fitstar 30 day challenge",
