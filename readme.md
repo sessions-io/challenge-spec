@@ -43,8 +43,8 @@ This example is a single segment. Multiple segments would need to satisfied line
 The open source apps for [iOS](https://github.com/sessions-io/smrt-ios) and [Android](https://github.com/sessions-io/smrt-android) can fetch and load challenges from any URL.
 Challenges should be available on http(s) endpoints with content-type "application/json".
 
-### Example Challenges
+### Hosted Example Challenges
 
-[Couch to 5k](https://sessions.io/s/c25k)
+[Couch to 5k - https://sessions.io/s/c25k](https://sessions.io/s/c25k)
 
-[365 miles in 365 days](https://sessions.io/s/365in365)
+[365 miles in 365 days - https://sessions.io/s/365in365](https://sessions.io/s/365in365)
