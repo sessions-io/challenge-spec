@@ -1,6 +1,8 @@
 ## Challenge Spec 0.1.0
 
-Challenges are specified in the following JSON format which describes a device/vendor/platform independent set of constraints that a person must meet in order to qualify as "complete". Our open source [Android](https://github.com/sessions-io/smrt-android) and [iOS](https://github.com/sessions-io/smrt-ios) apps load challenges in this format and track completion automatically by connecting with wearable fitness devices.
+For the purpose of this spec, challenges are groups of workouts/activities that must be completed in order to qualify as 'completed'.
+
+Challenges are specified in the following JSON format which describes a device/vendor/platform independent set of constraints. Our open source [Android](https://github.com/sessions-io/smrt-android) and [iOS](https://github.com/sessions-io/smrt-ios) apps load challenges in this format and track completion automatically by connecting with wearable fitness devices.
 
 Challenges have a standard header that ensures runtime compatiblity:
 
